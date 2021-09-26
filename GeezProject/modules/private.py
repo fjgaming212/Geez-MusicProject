@@ -29,16 +29,18 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Haii {message.from_user.first_name} saya adalah {PROJECT_NAME}\n
-Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
+Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda
 Saya Memiliki Banyak Fitur Seperti :
-• Memutar Musik.
-• Mendownload Lagu.
-• Mencari Lagu Yang ingin di Putar atau di Download.
-• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya
+┏━━━━━━━━━━━━━━
+┣• Memutar Musik.
+┣• Mendownload Lagu.
+┣• Mencari Lagu Yang ingin di Putar atau di Download.
+┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
+┗━━━━━━━━━━━━━━
 
 📌 Special Thanks To : {OWNER}
 
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
+Tambahkan Saya Ke Group Anda!
 </b>""",
 
 # Edit Yang Seharusnya Lu Edit Aja:D
@@ -53,10 +55,10 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                     InlineKeyboardButton(
                         "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "🎈 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "💬 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "⚙️ Source Code ⚙️", url=f"https://{SOURCE_CODE}")
                 ],[
                     InlineKeyboardButton(
                         "🎁 Donate", url=f"https://t.me/FJ_GAMING")
@@ -149,7 +151,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Vckyouuu/32"
+                        "📜 Cara Menggunakan BOT 📜", url="https://telegra.ph/Cara-menggunakan-bot-music-dengan-benar-09-26"
                     )
                 ]
             ]
