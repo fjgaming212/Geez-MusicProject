@@ -61,7 +61,7 @@ Tambahkan Saya Ke Group Anda!
                         "⚙️ Source Code ⚙️", url=f"https://{SOURCE_CODE}")
                 ],[
                     InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/FJ_GAMING")
+                        "Developer 📲", url=f"https://t.me/FJ_GAMING")
                 ]
             ]
         ),
@@ -102,8 +102,8 @@ def map(pos):
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🔰 Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
+             InlineKeyboardButton(text = '💬 Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton(text = '⚙️ Source Code ⚙️', url=f"https://{SOURCE_CODE}")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
     else:
