@@ -80,6 +80,11 @@
       "description": "Batas durasi audio maksimal untuk download (minutes).",
       "required": true,
       "value": "15"
+    },
+    "SOURCE_CODE": {
+      "description": "Isi dengan link url GitHub fork mu",
+      "required": false,
+      "value": "https://github.com/fjgaming212/Bot-Music"
     }
   }
 }
